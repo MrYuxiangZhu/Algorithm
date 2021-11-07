@@ -20,7 +20,7 @@ string GetMaxPalindromeString(string& str)
 		DP[i][i] = 1;
 	}
 
-	for (int k = 2; k < length; ++k)
+	for (int k = 2; k <= length; ++k)
 	{
 		for (int i = 0; i < length; ++i)
 		{
